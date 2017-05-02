@@ -1,10 +1,17 @@
 # random
-generates fixed length random strings
+generates fixed length random strings. Useful e.g. for generating session ID
 
 ## Install
 `go get github.com/mj420/random`
 
 ## Usage
+```golang
+...
+random.Generate(length)
+...
+```
+
+## Example
 ```golang
 package main
 
