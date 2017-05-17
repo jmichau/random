@@ -3,7 +3,7 @@ generates fixed length random strings. Useful e.g. for generating session ID
 
 ## Install
 ```shell
-go get github.com/mj420/random
+go get github.com/jmichau/random
 ```
 
 ## Usage
