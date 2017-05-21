@@ -3,7 +3,7 @@ generates fixed length random strings. Useful e.g. for generating session ID
 
 ## Install
 ```shell
-go get github.com/jmichau/random
+go get github.com/mikejav/random
 ```
 
 ## Usage
@@ -20,7 +20,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/mj420/random"
+	"github.com/mikejav/random"
 )
 
 func main() {
