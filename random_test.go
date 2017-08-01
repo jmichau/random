@@ -4,14 +4,14 @@ import "testing"
 
 func TestGenerate(t *testing.T) {
 	values := make(map[string]bool)
-	num_tests := 10
+	numTests := 10
 
-	for i := 0; i < num_tests; i++ {
+	for i := 0; i < numTests; i++ {
 		randString := Generate(10)
 		values[randString] = true
 	}
 
-	if len(values) != num_tests {
+	if len(values) != numTests {
 		t.Error("Strings are not generating randomly")
 	}
 }
