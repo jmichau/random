@@ -1,3 +1,4 @@
+[![Go Report Card](https://goreportcard.com/badge/github.com/mikejav/random)](https://goreportcard.com/report/github.com/mikejav/random)
 # random
 generates fixed length random strings. Useful e.g. for generating session ID
 
